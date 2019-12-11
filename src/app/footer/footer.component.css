@@ -1,0 +1,67 @@
+/*section-footer*/
+
+.ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-sec {
+    background: black;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    padding: inherit;
+    color: white;
+}
+
+.usefull-links {
+    font-size: 16px;
+    color: white;
+    position: relative;
+    left: 36px;
+}
+
+.list-items a {
+    color: darkgray;
+}
+
+.list-items {
+    position: relative;
+    top: 23px;
+    color: darkgray;
+}
+
+.para {
+    text-align: justify;
+    font-weight: 100;
+    padding: inherit;
+    color: darkgray;
+}
+
+.contact {
+    font-size: 16px;
+    color: white;
+}
+
+.address {
+    color: darkgray;
+    position: relative;
+    top: 23px;
+}
+
+.follow-us {
+    font-size: 16px;
+    color: white;
+    position: relative;
+    left: 30px;
+}
+
+.icons {
+    padding: 0 31px 0 31px;
+}
+
+.icons i {
+    padding: 0 7px 0 7px;
+}

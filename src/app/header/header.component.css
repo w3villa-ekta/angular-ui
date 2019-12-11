@@ -16,19 +16,6 @@
  li {
      padding: 30px;
  }
- /* 
-.nav{
-     display: -webkit-inline-box;
-     margin: 0 240px 0 240px;
-}
-
-.nav-item{
-      padding: 0 35px 0 35px;
-}
-
-.nav-link{
-    color:white;
-}*/
  
  header {
      width: 100%;
@@ -38,4 +25,8 @@
  
  .row {
      width: 100%;
+ }
+ 
+ .dropdown-item {
+     color: black;
  }
