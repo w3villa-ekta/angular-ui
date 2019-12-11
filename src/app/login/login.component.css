@@ -1,0 +1,129 @@
+/* COMMON-CSS */
+
+.container-fluid {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(-90deg, #4568dc, #b06ab3);
+}
+
+.row {
+    width: 100%;
+}
+
+
+/*section-form*/
+
+.mtb-100 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container {
+    width: 40%;
+    height: 780px;
+    background-color: white;
+    box-shadow: 0 0 6px 2px #000000a8;
+    border: 1px solid black;
+    border-radius: 8px;
+    border-bottom: 8px solid #a569b7;
+}
+
+.headding-h1 {
+    text-align: center;
+    padding: 50px 0 50px 0;
+    color: blueviolet;
+    font-weight: 600;
+}
+
+#heading-hr {
+    /* color: blueviolet; */
+    border: 2px solid blueviolet;
+    position: relative;
+    top: -36px;
+    width: 80px;
+}
+
+.sign-up-form {
+    width: 60%;
+    margin: auto;
+}
+
+.btn {
+    background-image: linear-gradient(-90deg, #4568dc, #b06ab3);
+    position: relative;
+    top: 20px;
+    width: 130px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/*section-footer*/
+
+.ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-sec {
+    background: black;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    padding: inherit;
+    color: white;
+}
+
+.usefull-links {
+    font-size: 16px;
+    color: white;
+    position: relative;
+    left: 36px;
+}
+
+.list-items a {
+    color: darkgray;
+}
+
+.list-items {
+    position: relative;
+    top: 23px;
+    color: darkgray;
+}
+
+.para {
+    text-align: justify;
+    font-weight: 100;
+    padding: inherit;
+    color: darkgray;
+}
+
+.contact {
+    font-size: 16px;
+    color: white;
+}
+
+.address {
+    color: darkgray;
+    position: relative;
+    top: 23px;
+}
+
+.follow-us {
+    font-size: 16px;
+    color: white;
+    position: relative;
+    left: 30px;
+}
+
+.icons {
+    padding: 0 31px 0 31px;
+}
+
+.icons i {
+    padding: 0 7px 0 7px;
+}

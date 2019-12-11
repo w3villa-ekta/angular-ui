@@ -1,0 +1,97 @@
+<!-- <div class="form-group">
+    <label for="inputdefault">NAME: {{name}}</label>
+    <input class="form-control" id="inputdefault" value={{name}} type="text">
+  </div> -->
+
+
+<section class="container mtb-100">
+    <div class="login-form">
+        <h1 class="headding-h1">SIGN UP</h1>
+        <hr id="heading-hr">
+    </div>
+
+    <form class="sign-up-form">
+        <div class="form-group">
+            <label for="inputdefault">USER NAME :</label>
+            <input class="form-control" id="inputdefault" [(ngModel)]="name" type="text">
+        </div>
+
+        <div class="form-group">
+            <label for="inputdefault">FIRST NAME :</label>
+            <input class="form-control" id="inputdefault" [(ngModel)]="first_name" type="text">
+        </div>
+
+
+        <div class="form-group">
+            <label for="inputdefault">LAST NAME :</label>
+            <input class="form-control" id="inputdefault" [(ngModel)]="last_name" type="text">
+        </div>
+
+        <div class="form-group">
+            <label for="inputdefault">E-MAIL :</label>
+            <input class="form-control" id="inputdefault" [(ngModel)]="e_mail" type="text">
+        </div>
+
+        <div class="form-group">
+            <label for="inputdefault">PASSWORD :</label>
+            <input class="form-control" id="inputdefault" [(ngModel)]="password" type="password">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">COUNTRY :</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+            <option>--SELECT--</option>
+            <option>Russia</option>
+            <option>Canada</option>
+            <option>China</option>
+            <option>Brazil</option>
+            <option>India</option>
+          </select>
+        </div>
+
+        <div class="form-group text-center">
+            <button type="button" class="btn btn-dark btns" (click)="myClickFunction()">SUBMIT</button>
+        </div>
+    </form>
+</section>
+
+
+<section class="ptb-100 footer-sec">
+    <div class="row">
+        <div class="col-sm-4">
+            <h1>Lorem Ipsum</h1>
+            <p class="para">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or- less normal distribution of letters, as opposed to using
+                'Content here, content here', making it look like readable English.</p>
+        </div>
+        <div class="col-sm-2 list-footer">
+            <div class="footer">
+                <h3 class="usefull-links">USEFUL LINKS</h3>
+                <ul class="list-items">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about-us">ABOUT US</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#our-team">OUR TEAM</a></li>
+                    <li><a href="#plans">PLANS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <h3 class="contact">CONTACT US</h3>
+            <div class="address">
+                <p>Ground Floor, 118/362, A Block,</p>
+                <p>Kanpur 208012 (U.P.)</p>
+                <p>Phone: 09129639666</p>
+                <p>Email: enquiry@w3grads.com</p>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="social-links">
+                <h3 class="follow-us">FOLLOW US</h3>
+                <div class="icons"><a href="#" class="facebook"><i class='fab fa-facebook' style='font-size:40px; color:white;'></i></a>
+                    <a href="#" class="twitter"><i class='fab fa-tumblr-square' style='font-size:40px;color:white;'></i></a>
+                    <a href="#" class="twitter"><i class='fab fa-instagram' style='font-size:40px;color:white;'></i></a></div>
+            </div>
+        </div>
+    </div>
+</section>
